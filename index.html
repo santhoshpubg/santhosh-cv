@@ -3,136 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santhosh Krishnan-Sundaran | Resume</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; line-height: 1.6; }
-        h1, h2, h3 { color: #333; }
-        .header, .section, .footer { margin-bottom: 20px; }
-        .header { text-align: center; }
-        .contact-info { font-size: 0.9em; color: #555; }
-        ul { list-style-type: square; padding-left: 20px; }
-        .footer { text-align: center; font-size: 0.8em; color: #666; }
-        a { color: #0056b3; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        /* Add this CSS to center the list items */
-        .section h2 + ul{
-            text-align: center;
-            list-style: none;
-            padding: 0;
-        }
-
-        .section h2 + ul {
-            display: inline-block;
-            margin: 0 10px;
-        }
-    </style>
+    <title>Santhosh's Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="header">
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#cert">Education & Certs</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Employment History</a></li>
+            <li><a href="#contact">Awards & Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sections -->
+    <section id="about">
+        <h2><u>Professional Summary</u></h2>
         <h1>Santhosh Krishnan-Sundaran</h1>
         <p>IT Infrastructure Engineer</p>
         <p class="contact-info">
             Dublin, Ireland | +353 87 092 5372 | <a href="mailto:getme.santhosh@gmail.com">getme.santhosh@gmail.com</a><br>
             Date of Birth: 06/07/1985 | Nationality: Irish
         </p>
-    </header>
-    <section class="section">
-        <h2>Certifications & Social Profiles</h2>
-        <ul>
-            <li><a href="https://www.credly.com/users/santhosh_ks" target="_blank">Credly Badges</a></li>
-            <li><a href="https://www.linkedin.com/in/santhosh-irl/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/santhoshpubg" target="_blank">GitHub</a></li>
-        </ul>
-    </section>
-    <section class="section">
-        <h2>Professional Summary</h2>
-        <p>I am a seasoned Infrastructure Engineer with a strong focus on multi-cloud infrastructure and automation. I have a proven track record in leveraging cloud platforms to deliver scalable and reliable solutions. With expertise in Infrastructure as Code , I automate infrastructure provisioning and configuration. I am skilled in CI/CD pipelines and collaborate effectively with cross-functional teams to drive operational excellence</p>
+        <p>Experienced Infrastructure Engineer with a strong focus on multi-cloud infrastructure and automation. I have a proven track record in leveraging cloud platforms to deliver scalable and reliable solutions. With expertise in Infrastructure as Code , I automate infrastructure provisioning and configuration. I am skilled in CI/CD pipelines and collaborate effectively with cross-functional teams to drive operational excellence.</p>
+        <a href="Santhosh_Resume.pdf" download>Download Resume (PDF)</a>
     </section>
 
-    <section class="section">
-        <h2>Employment History</h2>
-        
-        <h3>R & D Engineer IV, VMware by Broadcom, Dublin</h3>
-        <p><em>Jul 2022 – Oct 2024</em></p>
-        <ul>
-            <li>Responsible for VMware's SASE Services and SDWAN infrastructure operations across global regions.</li>
-            <li>Hosted services deployment across AWS/GCP and multiple VMware internal data centers globally.</li>
-            <li>Lead SRE for infrastructure automation and orchestration with CI/CD solutions.</li>
-            <li>Collaborated closely with DevOps, SRE, and Engineering teams to ensure smooth service delivery.</li>
-            <li>Managed Kubernetes clusters, including worker node provisioning, pod deployment, scaling, and upgrades. - EKS & VMware-Tanzu Kubernetes Grid</li>
-            <li>Configured Ingress controllers for external access and implemented Prometheus and Grafana for monitoring.</li>
-            <li>Developed and maintained Jenkins pipelines and Ansible playbooks to automate tasks such as infrastructure provisioning (AWS EC2, VMware), configuration management, and application deployment.</li>
-            <li>Proficient in AWS and GCP, including instance management (creation, termination, modification), volume management, and IAM roles. Experienced in migrating workloads between AWS and GCP.</li>
-            <li>Utilized Python and Bash scripting for automation, monitoring, and troubleshooting. Investigated and resolved issues related to instance boot failures, performance bottlenecks, and application configuration.</li>
-            <li>Implemented security best practices, including managing secrets, configuring IAM roles, and securing access to infrastructure and applications.</li>
-            <li>Led cross-functional teams to resolve complex API issues and optimized pipeline efficiency for Managed Service teams.</li>
-        </ul>
-        
-        <h3>IT Senior Infrastructure Architect, SAP, Dublin</h3>
-        <p><em>May 2016 – Jul 2022</em></p>
-        <ul>
-            <li>Architected and implemented Data Centre platforms using VMware SDDC (vRA , vRO) and Infrastructure-as-Code</li>
-            <li>Provided expert support for Compute, Storage, and Platform engineering</li>
-            <li>Developed roadmaps and led strategic infrastructure projects</li>
-            <li>Managed and advanced VMware infrastructure operations</li>
-            <li>Delivered and supported Hybris cloud services for SAP Cloud Commerce Data Centres and Public Cloud</li>
-            <li>Supported and administered core infrastructure and client services</li>
-            <li>Collaborated with global teams to ensure seamless cloud operations for SAP E-commerce IT platform</li>
-          </ul>
-        
-        <h3>Technology Lead , Infosys Ltd. United Kingdom</h3>
-        <p><em>Nov 2012 — Mar 2016</em></p>
-        <ul>
-            <li>Expert in designing, installing, and maintaining physical and virtual servers, adhering to ITIL standards.</li>
-            <li>Led successful data center migrations and consolidations, including a large-scale private cloud transformation.</li>
-            <li>Implemented robust disaster recovery solutions using VMware SRM to ensure business continuity.</li>
-            <li>Upgraded infrastructure components (vCenter, ESX, SRM, VDP) to optimize performance and reliability.</li>
-            <li>Collaborated with clients to plan and execute infrastructure projects, responding to RFPs and providing technical expertise.</li>
-        </ul>
-
-        <h3>Technical Lead , Servion Global Solutions , Chennai</h3>
-        <p><em>Dec 2008 — Nov 2012</em></p>
-        <ul>
-            <li>System Engineering & NOC Operations in a Critical Environment</li>
-            <li>Resolved critical issues for the Voice Hosting System</li>
-            <li>Managed infrastructure using ITIL best practices</li>
-            <li>Expert in server virtualization and automation</li>
-            <li>Led production operations and data center management</li>
-            <li>Ensured high availability and performance for critical systems</li>
-            <li>Proficient in troubleshooting, incident management, and automation tools</li>
-        </ul>
-
-        <h3>Senior Engineer, HCL Tech</h3>
-        <p><em>Aug 2006 — Dec 2008</em></p>
-        <ul>
-            <li>Gained experience in ITSM monitoring and DC SysOps</li>
-            <li>Installed and maintained Linux and Windows servers</li>
-            <li>Performed remote server administration using DRAC</li>
-            <li>Managed mail, web, and FTP servers</li>
-            <li>Implemented security policies and developed shell scripts</li>
-            <li>Configured and troubleshooted network services</li>
-            <li>Monitored servers using Nagios and OpenNMS</li>
-            <li>Managed user access, file permissions, and Cron jobs</li>
-          </ul>
-        <!-- Add additional job roles as needed -->
+    <section id="cert">
+        <h2><u>Education & Certifications</u></h2>
+            <ul>
+                <p><strong>B.Tech in Information Technology</strong>, Anna University (2002 – 2006)</p</p>
+                <li><a href="https://www.credly.com/users/santhosh_ks" target="_blank">Credly Badges</a></li>
+                <li><a href="https://www.linkedin.com/in/santhosh-irl/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/santhoshpubg" target="_blank">GitHub</a></li>
+            </ul>
     </section>
-
-    <section class="section">
-        <h2>Skills</h2>
+    <section id="skills">
+        <h2><u>Skills</u></h2>
+        <div class="card">
         <h3>Cloud and Infrastructure</h3>
     <ul>
         <li>Cloud Platforms:</li>
             <li>Multi-Cloud: AWS, GCP, Azure, VMware (ARIA, NSX, SD-WAN); Private Cloud: vSphere, ESXi</li>
         <li>Infrastructure as Code: Terraform</li>
         <li>Configuration Management: Ansible, Puppet, Salt</li>
-        <li>Container Orchestration: Kubernetes, Docker, Helm, EKS</li>
+        <li>Container Orchestration: Kubernetes, Docker, Helm, EKS , VMware-TKG</li>
         <li>Monitoring and Logging: CloudWatch, Grafana, Elastic Stack, Logz.io, Sumo Logic</li>
         <li>Networking: NSX, Load Balancers, TCP/IP, HTTP</li>
         <li>Storage and Backup: VNX, NetApp, Networker</li>
         <li>Virtualization: VMware</li>
     </ul>
-
+        </div>
+        <div class="card">
     <h3>DevOps and Automation</h3>
     <ul>
         <li>CI/CD: Jenkins, GitLab CI, Concourse, Runway, Nimbus</li>
@@ -142,49 +67,116 @@
         <li>Workflow Automation: Atlassian tools (JIRA), Collaborative platforms</li>
         <li>Source Code Management: GitLab, Bitbucket </li>
     </ul>
-
+        </div>
+        <div class="card">
     <h3>System Administration</h3>
     <ul>
-        OS: Linux, Windows; Network Mgmt: NSX, Load Balancers; Web Servers: Apache, Nginx; Storage & Backup: VNX, NetApp, Networker; Security and Patch Mgmt<
+        OS: Linux, Windows; Network Mgmt: NSX, Load Balancers; Web Servers: Apache, Nginx; Storage & Backup: VNX, NetApp, Networker; Security and Patch Mgmt.
     </ul>
-
+        </div>
+        <div class="card">
     <h3>DevOps and Site Reliability Engineering (SRE)</h3>
     <ul><li>DevOps, SRE, On-Call Rotation, Escalation & De-Escalation Mgmt, Troubleshooting, Deployment, Disaster Recovery</li></ul>
-
+        </div>
+        <div class="card">
     <h3>Soft Skills</h3>
     <ul>
         <li>Leadership and Management: Leadership, Mentoring, People Management, Project Management</li>
         <li>Communication: Effective Communication, Technical Writing</li>
         <li>Problem-Solving: Troubleshooting, Problem-Solving</li>
     </ul>
+        </div>
 
+        <div class="card">
     <h3>Service Management</h3>
     <ul>
         <li>IT Service Management: ITSM, Incident Management, Change Management, Problem Management</li>
         <li>Pre-Sales and Consulting: Pre-Sales, Client Delivery Management, Technical Consulting</li>
     </ul>
+        </div>
+
     </section>
 
-    <section class="section">
-        <h2>Education</h2>
-        <p><strong>B.Tech in Information Technology</strong>, Anna University (2002 – 2006)</p>
+    <section id="experience">
+        <p><h2><u>Employment History</u></h2>
+        
+            <h3>R & D Engineer IV, VMware by Broadcom, Dublin</h3>
+            <p><em>Jul 2022 – Oct 2024</em></p>
+            <ul>
+                <li>Responsible for VMware's SASE Services and SDWAN infrastructure operations across global regions.</li>
+                <li>Hosted services deployment across AWS/GCP and multiple VMware internal data centers globally.</li>
+                <li>Lead SRE for infrastructure automation and orchestration with CI/CD solutions.</li>
+                <li>Collaborated closely with DevOps, SRE, and Engineering teams to ensure smooth service delivery.</li>
+                <li>Managed Kubernetes clusters, including worker node provisioning, pod deployment, scaling, and upgrades. - EKS & VMware-Tanzu Kubernetes Grid</li>
+                <li>Configured Ingress controllers for external access and implemented Prometheus and Grafana for monitoring.</li>
+                <li>Developed and maintained Jenkins pipelines and Ansible playbooks to automate tasks such as infrastructure provisioning (AWS EC2, VMware), configuration management, and application deployment.</li>
+                <li>Proficient in AWS and GCP, including instance management (creation, termination, modification), volume management, and IAM roles. Experienced in migrating workloads between AWS and GCP.</li>
+                <li>Utilized Python and Bash scripting for automation, monitoring, and troubleshooting. Investigated and resolved issues related to instance boot failures, performance bottlenecks, and application configuration.</li>
+                <li>Implemented security best practices, including managing secrets, configuring IAM roles, and securing access to infrastructure and applications.</li>
+                <li>Led cross-functional teams to resolve complex API issues and optimized pipeline efficiency for Managed Service teams.</li>
+            </ul>
+            
+            <h3>IT Senior Infrastructure Architect, SAP, Dublin</h3>
+            <p><em>May 2016 – Jul 2022</em></p>
+            <ul>
+                <li>Architected and implemented Data Centre platforms using VMware SDDC (vRA , vRO) and Infrastructure-as-Code</li>
+                <li>Provided expert support for Compute, Storage, and Platform engineering</li>
+                <li>Developed roadmaps and led strategic infrastructure projects</li>
+                <li>Managed and advanced VMware infrastructure operations</li>
+                <li>Delivered and supported Hybris cloud services for SAP Cloud Commerce Data Centres and Public Cloud</li>
+                <li>Supported and administered core infrastructure and client services</li>
+                <li>Collaborated with global teams to ensure seamless cloud operations for SAP E-commerce IT platform</li>
+              </ul>
+            
+            <h3>Technology Lead , Infosys Ltd. United Kingdom</h3>
+            <p><em>Nov 2012 — Mar 2016</em></p>
+            <ul>
+                <li>Expert in designing, installing, and maintaining physical and virtual servers, adhering to ITIL standards.</li>
+                <li>Led successful data center migrations and consolidations, including a large-scale private cloud transformation.</li>
+                <li>Implemented robust disaster recovery solutions using VMware SRM to ensure business continuity.</li>
+                <li>Upgraded infrastructure components (vCenter, ESX, SRM, VDP) to optimize performance and reliability.</li>
+                <li>Collaborated with clients to plan and execute infrastructure projects, responding to RFPs and providing technical expertise.</li>
+            </ul>
+    
+            <h3>Technical Lead , Servion Global Solutions , Chennai</h3>
+            <p><em>Dec 2008 — Nov 2012</em></p>
+            <ul>
+                <li>System Engineering & NOC Operations in a Critical Environment</li>
+                <li>Resolved critical issues for the Voice Hosting System</li>
+                <li>Managed infrastructure using ITIL best practices</li>
+                <li>Expert in server virtualization and automation</li>
+                <li>Led production operations and data center management</li>
+                <li>Ensured high availability and performance for critical systems</li>
+                <li>Proficient in troubleshooting, incident management, and automation tools</li>
+            </ul>
+    
+            <h3>Senior Engineer, HCL Tech</h3>
+            <p><em>Aug 2006 — Dec 2008</em></p>
+            <ul>
+                <li>Gained experience in ITSM monitoring and DC SysOps</li>
+                <li>Installed and maintained Linux and Windows servers</li>
+                <li>Performed remote server administration using DRAC</li>
+                <li>Managed mail, web, and FTP servers</li>
+                <li>Implemented security policies and developed shell scripts</li>
+                <li>Configured and troubleshooted network services</li>
+                <li>Monitored servers using Nagios and OpenNMS</li>
+                <li>Managed user access, file permissions, and Cron jobs</li>
+              </ul>
+    </p>
     </section>
+    <section id="contact">
+        <h2><u>Awards & Appreciations</u></h2>
+        <p>
+        <li>Best Team Player - 2009</li>
+        <li>Best Managed Team - Nuance Inc - Servion , 2010</li>
+        <li>MVP , Infosys - 2012 , 2014</li>
+        <li>Green IT Cloud Virtualization project 2012 ( Ricoh ) , Infosys </li>
+        <li>Catalyst of the year , 2019 , 2020 , SAP </li>
+        <li>At the Best , VMware by Broadcom  - 2022</li></p>
 
-    <section class="section">
-        <h2>Languages</h2>
-        <ul>
-            <li>English & Tamil</li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <h2>Hobbies</h2>
-        <li>MotorCycles , Cooking, Reading & Playing Cricket</li>
-    </section>
-
-    <footer class="footer">
+        <h2><u>Contact</u></h2>
         <p>Please connect with me on <a href="https://www.linkedin.com/in/santhosh-irl/">LinkedIn</a> or send me an email at <a href="mailto:getme.santhosh@gmail.com">getme.santhosh@gmail.com</a>.</p>
-    </footer>
+    </section>
 
 </body>
 </html>
