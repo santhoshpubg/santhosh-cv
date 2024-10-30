@@ -67,3 +67,48 @@ p {
         margin: 10px 0;
     }
 }
+
+/* Sticky Navigation */
+nav {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Download Button Styling */
+.download-btn {
+    display: inline-block;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #16a085;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    /* Card adjustments for smaller screens */
+    .card {
+        padding: 15px;
+        font-size: 0.9em;
+    }
+
+    /* Navigation font size */
+    nav ul li a {
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+}
